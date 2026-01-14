@@ -4512,7 +4512,15 @@ header.main-header .header-sticky.active {
 .error-page-content-heading h2 span {
   color: var(--accent-color);
 }
-
+.mobile-image-banner {
+  display: none;
+}
+.web-image-banner {
+  display: block;
+}
+.text-anime-style-4{
+  font-size: 70px;
+}
 /************************************/
 /***     36. responsive css       ***/
 /************************************/
@@ -4591,9 +4599,20 @@ header.main-header .header-sticky.active {
   }
 
   .hero-slider-layout .hero-slide {
-    position: relative;
-    min-height: 100%;
-    padding: 150px 0;
+    .hero-slider-layout .hero-slide {
+      position: relative;
+      min-height: 100%;
+      padding: 140px 0 300px 0;
+    }
+    .hero-content {
+      text-align: center !important;
+    }
+    .mobile-image-banner {
+      display: block;
+    }
+    .web-image-banner {
+      display: none;
+    }
   }
 
   .hero-slider-layout .hero-pagination {
@@ -6005,6 +6024,7 @@ header.main-header .header-sticky.active {
   .error-page-content-heading h2 {
     font-size: 28px;
   }
+  .text-anime-style-4{
+  font-size: 40px;
 }
-
-
+}
